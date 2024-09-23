@@ -440,17 +440,18 @@ I want to construct a counter-example,
 \end{array}\right),\left(\begin{array}{c}
 2\\
 1
-\end{array}\right))\in R$
+\end{array}\right))\notin R$
 \end_inset
 
- nor 
+ ,
+ 
 \begin_inset Formula $(\left(\begin{array}{c}
 2\\
 1
 \end{array}\right),\left(\begin{array}{c}
 1\\
 2
-\end{array}\right))\in R$
+\end{array}\right))\notin R$
 \end_inset
 
 .
@@ -3480,7 +3481,7 @@ By our conditions
 \end_layout
 
 \begin_layout Chapter
-Preference and Choice (MGW Cp 1)
+Preference and Choice (Cp 1 MGW)
 \end_layout
 
 \begin_layout Section
@@ -5497,7 +5498,7 @@ Now generate a choice correspondence,
 Consumer Theory:
  Utility Maximization.
  (Ch.
- 3).
+ 3 MWG).
 \end_layout
 
 \begin_layout Standard
@@ -5766,7 +5767,8 @@ If
 \begin_inset Formula $\succeq$
 \end_inset
 
- is a continuous rational preference on 
+ is a continuous and rational (i.e.
+ complete and transitive) preference on 
 \begin_inset Formula $X=\mathbb{R}_{+}^{L}$
 \end_inset
 
@@ -5779,7 +5781,7 @@ If
 \end_inset
 
  (i.e.,
- 
+ for all 
 \begin_inset Formula $x,y\in X$
 \end_inset
 
@@ -5801,7 +5803,7 @@ If
 \begin_inset Formula $\succeq$
 \end_inset
 
- is a rational preference on 
+ is a rational (complete and transitive) preference on 
 \begin_inset Formula $X=\mathbb{Q}^{L}$
 \end_inset
 
@@ -6016,7 +6018,8 @@ We conclude that in general,
 \end_inset
 
 .
- 
+ By completeness,
+ this holds for all 
 \end_layout
 
 \begin_layout Standard
