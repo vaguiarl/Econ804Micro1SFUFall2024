@@ -7341,6 +7341,17 @@ x_{l}=\partial_{p_{l}}v(p_{1}^{t},\cdots,p_{L}^{t})
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x_{l}=\frac{1}{2}\sum_{k}\alpha_{l,k}p_{l}^{-\frac{1}{2}}p_{k}^{1/2}
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Expenditure Minimization Problem (EMP)
 \end_layout
@@ -7425,7 +7436,7 @@ Suppose
 \begin_inset Formula $p'x^{*}=w$
 \end_inset
 
- is exacly the wealth 
+ is exactly the wealth 
 \begin_inset Formula $w$
 \end_inset
 
@@ -7790,7 +7801,7 @@ Hicksian Compensated Demand
 
 \begin_layout Standard
 The Hicksian Compensated Demand or Hicksian demand is 
-\begin_inset Formula $h(p,u)=argmin_{x\geq0,u(x)\geq\overline{u}}p'x$
+\begin_inset Formula $h(p,\overline{u})=argmin_{x\geq0,u(x)\geq\overline{u}}p'x$
 \end_inset
 
 .
