@@ -400,30 +400,17 @@ a) When
 \end_inset
 
  and 
-\begin_inset Formula $u(c)\geq u(d)$
+\begin_inset Formula $u(c)\geq u(a)$
 \end_inset
 
 .
- Recall that 
-\begin_inset Formula $u$
-\end_inset
-
- is defined for all 
-\begin_inset Formula $X$
+ This implies that,
+ 
+\begin_inset Formula $u(c)\ge u(a)\geq u(b)$
 \end_inset
 
 ,
- so in particular,
- we have to have values for 
-\begin_inset Formula $a,b,c,d$
-\end_inset
-
-.
- So there are two cases either 
-\begin_inset Formula $u(c)\geq u(b)$
-\end_inset
-
- in which case 
+ but that means that 
 \begin_inset Formula $c\succeq b$
 \end_inset
 
@@ -434,12 +421,6 @@ a) When
 
  is not true,
  this is a contradiction.
- Or 
-\begin_inset Formula $u(b)\geq u(c)$
-\end_inset
-
- with an analogous contradiction.
- 
 \end_layout
 
 \begin_layout Standard
@@ -667,7 +648,7 @@ c) Consider
 \begin_inset Formula $aPb$
 \end_inset
 
- (strictly),
+ (stricty),
  
 \begin_inset Formula $cPa$
 \end_inset
