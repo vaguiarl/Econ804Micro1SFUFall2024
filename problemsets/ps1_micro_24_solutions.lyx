@@ -644,12 +644,17 @@ c) Consider
 
 ,
  
+\begin_inset Formula $a\sim b$
+\end_inset
+
+,
+ 
 \begin_inset Formula $c\succ a$
 \end_inset
 
 .
  Then 
-\begin_inset Formula $C^{\succeq}(\{a,b\})=\{a\}$
+\begin_inset Formula $C^{\succeq}(\{a,b\})=\{a,b\}$
 \end_inset
 
 ,
@@ -678,7 +683,7 @@ c) Consider
 
  (indifferent),
  but that means there is a cycle since 
-\begin_inset Formula $aPbIc$
+\begin_inset Formula $aIbIc$
 \end_inset
 
 ,
