@@ -12299,7 +12299,7 @@ worse
 \end_inset
 
  gets more attention.
- Rational inattention hurts the worst group.
+ Rational inattention hurts the best group.
  
 \end_layout
 
@@ -12698,11 +12698,12 @@ The rational preference relation
 \begin_inset Formula $u:Z\mapsto\mathbb{R}$
 \end_inset
 
- such that 
+ such that:
+ 
 \begin_inset Formula $p\succeq q$
 \end_inset
 
- and 
+ if and only if  
 \begin_inset Formula $\sum_{z\in Z}u(z)p(z)\geq\sum_{z\in Z}u(z)q(z)$
 \end_inset
 
