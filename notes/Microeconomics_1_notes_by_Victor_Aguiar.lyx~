@@ -12703,7 +12703,7 @@ The rational preference relation
 \begin_inset Formula $p\succeq q$
 \end_inset
 
- if and only if  
+ if and only if 
 \begin_inset Formula $\sum_{z\in Z}u(z)p(z)\geq\sum_{z\in Z}u(z)q(z)$
 \end_inset
 
@@ -14463,7 +14463,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Passing rates of Expected Utility.
+Passing rates of Expected Utility across subjects in the experiment.
 \end_layout
 
 \end_inset
