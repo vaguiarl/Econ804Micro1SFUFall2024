@@ -16176,7 +16176,7 @@ Now the city transportation corporation introduced a Blue Bus
 \end_inset
 
  is the same independently of the other alternatives.
- This limits a lot the capabilites of the multinomial logit to capture substitution patterns.
+ This limits a lot the capabilities of the multinomial logit to capture substitution patterns.
  
 \end_layout
 
@@ -16564,7 +16564,7 @@ Now let's consider consider the setup of choice under risk.
 \end_inset
 
  the choice set is the set of lotteries.
- Tipical items are denotes 
+ Typical items are denotes 
 \begin_inset Formula $p,q,r\in X$
 \end_inset
 
@@ -16623,7 +16623,7 @@ Menu expansion:
 \end_layout
 
 \begin_layout Standard
-Now we define the main behavioral inmplication of this model.
+Now we define the main behavioral implication of this model.
  
 \begin_inset Newline newline
 \end_inset
@@ -17020,6 +17020,211 @@ Where
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $\succ_{1}:a\succ_{1}b,\succ_{2}:b\succ_{2}a$
+\end_inset
+
+,
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement document
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $M$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\succ_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\succ_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a,\{a,b\}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $b,\{a,b\}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Random Utility Matrix
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $M=\left(\begin{array}{cc}
+1 & 0\\
+0 & 1
+\end{array}\right)$
+\end_inset
+
+,
+ 
+\begin_inset Formula $\rho=\left(\begin{array}{c}
+\rho_{\{a,b\}}(a)\\
+\rho_{\{a,b\}}(b)
+\end{array}\right)$
+\end_inset
+
+,
+ I can write the following when 
+\begin_inset Formula $\rho$
+\end_inset
+
+ is described by random utility or random linear rankings:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rho=M\pi$
+\end_inset
+
+,
+ 
+\begin_inset Formula $\pi=\left(\begin{array}{c}
+\pi(\succ_{1})\\
+\pi(\succ_{2})
+\end{array}\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
 \begin_layout Definition
 (ASRP) Axiom of Stochastic Revealed Preference.
  The choice probability 
@@ -17380,6 +17585,36 @@ end{proof}
 
 \begin_layout Standard
 There is a surprising result about random utility.
+ 
+\end_layout
+
+\begin_layout Standard
+When we have access to a sample analogue of 
+\begin_inset Formula $\rho$
+\end_inset
+
+,
+ call it 
+\begin_inset Formula $\hat{\rho}$
+\end_inset
+
+ for a finite sample then we can solve the following problem,
+ roughly,
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $min_{\pi}||M\pi-\hat{\rho}||^{2}$
+\end_inset
+
+ where 
+\begin_inset Formula $||\cdot||$
+\end_inset
+
+ is a (euclidean) norm,
+ so there are techniques to deal with this hypothesis testing problem,
+ in the work of Kitamura and Stoye (2019,
+ Econometrica).
  
 \end_layout
 
