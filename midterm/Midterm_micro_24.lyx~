@@ -1,0 +1,884 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{babel}
+\usepackage{babel}
+\usepackage{babel}
+
+
+
+
+
+  \providecommand{\assumptionname}{Assumption}
+  \providecommand{\axiomname}{Axiom}
+  \providecommand{\claimname}{Claim}
+  \providecommand{\definitionname}{Definition}
+  \providecommand{\lemmaname}{Lemma}
+  \providecommand{\propositionname}{Proposition}
+  \providecommand{\remarkname}{Remark}
+\providecommand{\corollaryname}{Corollary}
+\providecommand{\theoremname}{Theorem}
+
+
+
+  \providecommand{\axiomname}{Axiom}
+  \providecommand{\claimname}{Claim}
+  \providecommand{\definitionname}{Definition}
+  \providecommand{\remarkname}{Remark}
+\providecommand{\corollaryname}{Corollary}
+\providecommand{\theoremname}{Theorem}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams-bytype
+theorems-ams-extended-bytype
+\end_modules
+\maintain_unincluded_children no
+\language english
+\language_package default
+\inputencoding iso8859-15
+\fontencoding default
+\font_roman "cmr" "default"
+\font_sans "cmss" "default"
+\font_typewriter "cmtt" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing double
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 2
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.25in
+\topmargin 1.25in
+\rightmargin 1.25in
+\bottommargin 1.25in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Midterm Microeconomics 2024
+\end_layout
+
+\begin_layout Author
+Victor H.
+ Aguiar 
+\end_layout
+
+\begin_layout Date
+This version:
+ November 2024
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+(30 points) Consumer Theory with the Weak Axiom of Revealed Preference.
+ WARP.
+ 
+\end_layout
+
+\begin_layout Problem
+Let 
+\begin_inset Formula $X=\mathbb{R}_{+}^{L}$
+\end_inset
+
+ be the standard commodity space with 
+\begin_inset Formula $L\geq2$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Problem
+Define a preference function 
+\begin_inset Formula $r:X\times X\to\mathbb{R}$
+\end_inset
+
+ associated with a preference relation 
+\begin_inset Formula $\succeq\subseteq X\times X$
+\end_inset
+
+,
+ such that 
+\begin_inset Formula $r(x,y)\geq0$
+\end_inset
+
+ if and only if 
+\begin_inset Formula $x\succeq y$
+\end_inset
+
+ for any 
+\begin_inset Formula $x,y\in X$
+\end_inset
+
+ (and 
+\begin_inset Formula $r(x,y)>0$
+\end_inset
+
+ if 
+\begin_inset Formula $x\succ y$
+\end_inset
+
+).
+ Notice that 
+\begin_inset Formula $\succeq$
+\end_inset
+
+ may not be rational.
+ 
+\end_layout
+
+\begin_layout Problem
+Consider the following particular model of consumer behavior.
+ For each 
+\begin_inset Formula $j\in\{1,\cdots,J\}$
+\end_inset
+
+,
+ let 
+\begin_inset Formula $U_{j}$
+\end_inset
+
+ be a a finite collection of utilities such that 
+\begin_inset Formula $u\in U_{j}$
+\end_inset
+
+,
+ is 
+\begin_inset Formula $u:X\to\mathbb{R}$
+\end_inset
+
+ it's a utility function that is continuous,
+ strictly monotone and concave.
+ Now,
+ consider a consumer that has the following preferences (multiple-utility–MU–model):
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+r(x,y)=\max_{j\in\{1,\cdots,J\}}\min_{u\in U_{j}}(u(x)-u(y)).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+Intuitively,
+ this MU model says that the consumer does not have a single utility to compare between any two consumption bundles,
+ it may have many such utilities.
+ In order to decide if she likes 
+\begin_inset Formula $x$
+\end_inset
+
+ better than 
+\begin_inset Formula $y$
+\end_inset
+
+,
+ this consumer first picks the worst case over a particular criterion 
+\begin_inset Formula $U_{j}$
+\end_inset
+
+ 
+\begin_inset Formula $\min_{u\in U_{j}}(u(x)-u(y))$
+\end_inset
+
+,
+ and then if there is at least one criterion (some 
+\begin_inset Formula $j$
+\end_inset
+
+) for which 
+\begin_inset Formula $\min_{u\in U_{j}}(u(x)-u(y))\geq0$
+\end_inset
+
+ the comparison is favorable to 
+\begin_inset Formula $x$
+\end_inset
+
+ with respect to 
+\begin_inset Formula $y$
+\end_inset
+
+,
+ then it will declare that 
+\begin_inset Formula $r(x,y)\geq0$
+\end_inset
+
+ (i.e.,
+ the max over 
+\begin_inset Formula $j$
+\end_inset
+
+ is equivalent to the previous statement).
+ 
+\end_layout
+
+\begin_layout Problem
+Let 
+\begin_inset Formula $\mathcal{A\subseteq}2^{X}\setminus\emptyset$
+\end_inset
+
+ be a collection of menus/choice sets
+\end_layout
+
+\begin_layout Problem
+We define a choice correspondence 
+\begin_inset Formula $c:\mathcal{A}\to2^{X}\setminus\emptyset$
+\end_inset
+
+ by 
+\begin_inset Formula $c(A)\subseteq A$
+\end_inset
+
+.
+ We say that a choice correspondence admits a MU preference function rationalization if
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+c(A)=\{a\in A:r(a,b)\geq0\forall b\in A\},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+where 
+\begin_inset Formula $r$
+\end_inset
+
+ is a MU such that 
+\begin_inset Formula $r(x,y)=\max_{j\in\{1,\cdots,J\}}\min_{u\in U_{j}}(u(x)-u(y))$
+\end_inset
+
+ for any 
+\begin_inset Formula $x,y\in X$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Problem
+Let 
+\begin_inset Formula $\succeq^{D}$
+\end_inset
+
+ be defined as the direct revealed preference such that 
+\begin_inset Formula $x\succeq^{D}y\iff x\in c(A)$
+\end_inset
+
+ and 
+\begin_inset Formula $y\in A$
+\end_inset
+
+,
+ and 
+\begin_inset Formula $x\succ^{D}y\iff x\in c(A)$
+\end_inset
+
+ and 
+\begin_inset Formula $y\in A$
+\end_inset
+
+ but 
+\begin_inset Formula $y\notin c(A)$
+\end_inset
+
+.
+ We say WARP holds if 
+\begin_inset Formula $x\succeq^{D}y$
+\end_inset
+
+ implies not 
+\begin_inset Formula $y\succ^{D}x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+1.
+ (10 points) Show that associated preferences 
+\begin_inset Formula $\succeq$
+\end_inset
+
+ to the MU preference function above may fail to be rational.
+ Hint:
+ Build a particular model that fails transitivity or completeness,
+ that it's a MU preference function.
+ You can simplify the problem assuming for this numeral only that 
+\begin_inset Formula $X$
+\end_inset
+
+ is finite and that 
+\begin_inset Formula $\mathcal{A}$
+\end_inset
+
+ consists of tuples and triples 
+\begin_inset Formula $\{x,y\},$
+\end_inset
+
+ 
+\begin_inset Formula $\{x,y,z\}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+2.
+ (10 points) Show that when the multiple criteria are coherent,
+ namely 
+\begin_inset Formula $U_{j}\cap U_{i}\neq\emptyset$
+\end_inset
+
+,
+ then a choice correspondence that admits a MU preference function rationalization satisfies WARP.
+ Namely,
+ if 
+\begin_inset Formula $x\succeq^{D}y$
+\end_inset
+
+ then it cannot be that 
+\begin_inset Formula $y\succ^{D}x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+3.
+ (10 points) Partial converse.
+ Assume now that 
+\begin_inset Formula $\mathcal{A}$
+\end_inset
+
+ is such that it contains every tuple and triple choice set such that 
+\begin_inset Formula $\{x,y\},\{x,y,z\}\in\mathcal{A}$
+\end_inset
+
+ for every 
+\begin_inset Formula $x,y,z\in X$
+\end_inset
+
+.
+ Show that if a choice correspondence 
+\begin_inset Formula $c$
+\end_inset
+
+ defined on this collection of choice sets satisfies WARP then there is a MU preference function that rationalizes it.
+ For this exercise you can assume that the preference relation that rationalizes this data set is a continuous preference relation and that 
+\begin_inset Formula $X\subseteq\mathbb{R}^{L}$
+\end_inset
+
+.
+ (Hint:
+ note that we are assuming that the choice correspondence it's nonempty).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+Quasilinear Welfare Analysis.
+ 
+\end_layout
+
+\begin_layout Problem
+Consider a finite dataset of observations 
+\begin_inset Formula $O^{T}=\{p^{t},x^{t}\}_{t=1}^{T}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Problem
+Consider a consumer that maximizes a quasilinear utility function,
+ such that:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+x^{t}\in arg\max_{x\in X}u(x)-p^{t}\cdot x,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+for a given price vector 
+\begin_inset Formula $p^{t}\in\mathbb{R}_{++}^{L}$
+\end_inset
+
+,
+ where 
+\begin_inset Formula $u$
+\end_inset
+
+ is a continuous,
+ concave,
+ strictly increasing utility function,
+ and 
+\begin_inset Formula $X\subseteq\mathbb{R}_{+}^{L}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Problem
+1) Show that the dataset 
+\begin_inset Formula $O^{T}$
+\end_inset
+
+ is such that there exists numbers 
+\begin_inset Formula $v^{t}\in\mathbb{R}$
+\end_inset
+
+ such that:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+\text{\textbf{QuasilinearAfriat Inequalities}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+v^{t}-v^{s}\geq p^{t}\cdot(x^{t}-x^{s})=p^{t}(x^{t}-x^{s})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+for all 
+\begin_inset Formula $t,s\in\{1,\cdots,T\}$
+\end_inset
+
+ (Note:
+ the dot product notation is omitted as indicated above).
+ 
+\end_layout
+
+\begin_layout Problem
+2) Show that we can bound below the utility difference between any two bundles 
+\begin_inset Formula $x^{t},x^{s}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $u(x^{t})-u(x^{s})$
+\end_inset
+
+,
+ by:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+u(x^{t})-u(x^{s})\geq p^{t}(x^{t}-x^{1})+p^{1}(x^{1}-x^{2})+\cdots+p^{n}(x^{n}-x^{s}),
+\]
+
+\end_inset
+
+for any arbitrary subsequence of data points 
+\begin_inset Formula $(p^{i},x^{i})_{i=1}^{n}\subseteq O^{T}$
+\end_inset
+
+.
+ (This is useful for welfare analysis).
+ 
+\end_layout
+
+\begin_layout Problem
+3) The indirect utility of a price 
+\begin_inset Formula $p^{t}$
+\end_inset
+
+ is given by:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+v(p^{t})=\max_{x}u(x)-p^{t}x.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+Show that if 
+\begin_inset Formula $p^{s}x^{t}\geq(>)p^{t}x^{t}$
+\end_inset
+
+ then 
+\begin_inset Formula $v(p^{t})-v(p^{s})\geq(>)0.$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Problem
+4) Show that if 
+\begin_inset Formula $O^{T}$
+\end_inset
+
+ satisfies the Quasilinear Afriat Inequalities,
+ there is a concave,
+ strictly increasing continuous utility function 
+\begin_inset Formula $u$
+\end_inset
+
+,
+ such that:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+x^{t}\in arg\max_{x\in X}u(x)-p^{t}\cdot x,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+for a given 
+\begin_inset Formula $t\in\{1,\cdots,T\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Problem
+5) Say that inflation rate is such that,
+ and out-of-sample (not in 
+\begin_inset Formula $O^{T})$
+\end_inset
+
+ price 
+\begin_inset Formula $p^{T+1}$
+\end_inset
+
+ is such that 
+\begin_inset Formula $x^{1}(p^{2}-p^{1})\geq0,x^{2}(p^{3}-p^{2})\geq0,\cdots,x^{T}(p^{T+1}-p^{T})\geq0$
+\end_inset
+
+.
+ What can I conclude in terms of welfare for this individual:
+ Is she better-off or worse-off in 
+\begin_inset Formula $T+1,$
+\end_inset
+
+ with respect to every 
+\begin_inset Formula $t\in\{1,\cdots,T\}$
+\end_inset
+
+?
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+(Attraction Effect and Choice Overload)
+\end_layout
+
+\begin_layout Problem
+(60 points) (Too much choice/Choice overload and the Attraction Effect) Propose a model for consumer behavior that captures the following stylized facts.
+ 
+\end_layout
+
+\begin_layout Itemize
+Choice Overload:
+ Consumers are more likely to choose an outside option (that we equate in this problem to not choosing) when the size of the menu is too big.
+ Hint:
+ The choice set is 
+\begin_inset Formula $X\cup\{o\}$
+\end_inset
+
+ where 
+\begin_inset Formula $o$
+\end_inset
+
+ is an outside option (not in 
+\begin_inset Formula $X$
+\end_inset
+
+).
+ Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be finite.
+ Menus are of the form 
+\begin_inset Formula $A\cup\{o\}$
+\end_inset
+
+ where 
+\begin_inset Formula $A\subseteq X$
+\end_inset
+
+,
+ i.e.,
+ the outside option is always available to the consumer.
+ 
+\end_layout
+
+\begin_layout Itemize
+Attraction Effect:The 
+\series bold
+attraction effect
+\series default
+ is the observation that if we add an alternative to a menu,
+ then some existing item becomes more attractive to the consumer and is picked by her.
+ This introduced object is usually called the decoy.
+ 
+\end_layout
+
+\begin_layout Standard
+In formal terms,
+ 
+\begin_inset Formula $b^{-}\in X$
+\end_inset
+
+ be the decoy,
+ so we are going to study its impact in the choice of the object of interest 
+\begin_inset Formula $b\in X$
+\end_inset
+
+.
+ The observation is the following:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+b\in c(A\cup\{b^{-}\})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+b\notin c(A),b\in A.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In probabilities,
+ it means that
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p(b,A\cup\{b^{-}\})>p(b,A).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+You should describe with words what is the consumer choice algorithm.
+ The model can be deterministic or stochastic,
+ your choice.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Then you should describe what is 
+\begin_inset Quotes eld
+\end_inset
+
+new
+\begin_inset Quotes erd
+\end_inset
+
+ in your model and how that relates to some behavioral or bounded rationality feature we learned in class,
+ and how it differs from utility maximization.
+\end_layout
+
+\begin_layout Enumerate
+Finally you should write the behavioral maximization problem and show how your new model predicts the two stylized facts.
+ Also show,
+ that the rational benchmark cannot deal with this models (neither random utility or deterministic utility maximization can predict the choice overload or attraction effect).
+ 
+\end_layout
+
+\begin_layout Enumerate
+You should try to explain the model to me in the best way you can,
+ by using words,
+ diagrams and examples.
+ However,
+ you should have also formality,
+ make the effort to write down the model using math,
+ this is the only way to get full credit.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Describe what other testable implications your proposed model has.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Grading Criterion
+\end_layout
+
+\begin_layout Enumerate
+Work group is not allowed,
+ if I find out that several of you have essentially the same model,
+ you will receive the total grade of this question divided by the number of students that share the same response.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The last question will be graded on the following 5 items:
+ Logical consistency of the decision algorithm.
+ Clarity of the explanation of the decision algorithm.
+ Degree of success in explaining the behavioral effects.
+ Clarity in the explanation of the behavioral effect using the decision algorithm.
+ Ability of your model to be able to have testable implications (not everything goes).
+ 
+\end_layout
+
+\end_body
+\end_document
