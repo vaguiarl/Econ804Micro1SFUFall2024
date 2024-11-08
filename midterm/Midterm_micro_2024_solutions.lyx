@@ -1,0 +1,2092 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{babel}
+\usepackage{babel}
+\usepackage{babel}
+
+
+
+
+
+  \providecommand{\assumptionname}{Assumption}
+  \providecommand{\axiomname}{Axiom}
+  \providecommand{\claimname}{Claim}
+  \providecommand{\definitionname}{Definition}
+  \providecommand{\lemmaname}{Lemma}
+  \providecommand{\propositionname}{Proposition}
+  \providecommand{\remarkname}{Remark}
+\providecommand{\corollaryname}{Corollary}
+\providecommand{\theoremname}{Theorem}
+
+
+
+  \providecommand{\axiomname}{Axiom}
+  \providecommand{\claimname}{Claim}
+  \providecommand{\definitionname}{Definition}
+  \providecommand{\remarkname}{Remark}
+\providecommand{\corollaryname}{Corollary}
+\providecommand{\theoremname}{Theorem}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams-bytype
+theorems-ams-extended-bytype
+\end_modules
+\maintain_unincluded_children no
+\language english
+\language_package default
+\inputencoding iso8859-15
+\fontencoding default
+\font_roman "cmr" "default"
+\font_sans "cmss" "default"
+\font_typewriter "cmtt" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing double
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 2
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.25in
+\topmargin 1.25in
+\rightmargin 1.25in
+\bottommargin 1.25in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Midterm Microeconomics 2024
+\end_layout
+
+\begin_layout Author
+Victor H.
+ Aguiar 
+\end_layout
+
+\begin_layout Date
+This version:
+ October 2024
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+(20 points) Consumer Theory with the Weak Axiom of Revealed Preference.
+ WARP.
+ 
+\end_layout
+
+\begin_layout Problem
+Let 
+\begin_inset Formula $X=\mathbb{R}_{+}^{L}$
+\end_inset
+
+ be the standard commodity space with 
+\begin_inset Formula $L\geq2$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Problem
+Define a preference function 
+\begin_inset Formula $r:X\times X\to\mathbb{R}$
+\end_inset
+
+ associated with a preference relation 
+\begin_inset Formula $\succeq\subseteq X\times X$
+\end_inset
+
+,
+ such that 
+\begin_inset Formula $r(x,y)\geq0$
+\end_inset
+
+ if and only if 
+\begin_inset Formula $x\succeq y$
+\end_inset
+
+ for any 
+\begin_inset Formula $x,y\in X$
+\end_inset
+
+ (and 
+\begin_inset Formula $r(x,y)>0$
+\end_inset
+
+ if 
+\begin_inset Formula $x\succ y$
+\end_inset
+
+).
+ Notice that 
+\begin_inset Formula $\succeq$
+\end_inset
+
+ may not be rational.
+ 
+\end_layout
+
+\begin_layout Problem
+Consider the following particular model of consumer behavior.
+ For each 
+\begin_inset Formula $j\in\{1,\cdots,J\}$
+\end_inset
+
+,
+ let 
+\begin_inset Formula $U_{j}$
+\end_inset
+
+ be a a finite collection of utilities such that 
+\begin_inset Formula $u\in U_{j}$
+\end_inset
+
+,
+ is 
+\begin_inset Formula $u:X\to\mathbb{R}$
+\end_inset
+
+ it's a utility function that is continuous.
+ Now,
+ consider a consumer that has the following preferences (multiple-utility–MU–model):
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+r(x,y)=\max_{j\in\{1,\cdots,J\}}\min_{u\in U_{j}}(u(x)-u(y)).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+Intuitively,
+ this MU model says that the consumer does not have a single utility to compare between any two consumption bundles,
+ it may have many such utilities.
+ In order to decide if she likes 
+\begin_inset Formula $x$
+\end_inset
+
+ better than 
+\begin_inset Formula $y$
+\end_inset
+
+,
+ this consumer first picks the worst case over a particular criterion 
+\begin_inset Formula $U_{j}$
+\end_inset
+
+ 
+\begin_inset Formula $\min_{u\in U_{j}}(u(x)-u(y))$
+\end_inset
+
+,
+ and then if there is at least one criterion (some 
+\begin_inset Formula $j$
+\end_inset
+
+) for which 
+\begin_inset Formula $\min_{u\in U_{j}}(u(x)-u(y))\geq0$
+\end_inset
+
+ the comparison is favorable to 
+\begin_inset Formula $x$
+\end_inset
+
+ with respect to 
+\begin_inset Formula $y$
+\end_inset
+
+,
+ then it will declare that 
+\begin_inset Formula $r(x,y)\geq0$
+\end_inset
+
+ (i.e.,
+ the max over 
+\begin_inset Formula $j$
+\end_inset
+
+ is equivalent to the previous statement).
+ 
+\end_layout
+
+\begin_layout Problem
+Let 
+\begin_inset Formula $\mathcal{A\subseteq}2^{X}\setminus\emptyset$
+\end_inset
+
+ be a collection of menus/choice sets
+\end_layout
+
+\begin_layout Problem
+We define a choice correspondence 
+\begin_inset Formula $c:\mathcal{A}\to2^{X}\setminus\emptyset$
+\end_inset
+
+ by 
+\begin_inset Formula $c(A)\subseteq A$
+\end_inset
+
+.
+ We say that a choice correspondence admits a MU preference function rationalization if
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+c(A)=\{a\in A:r(a,b)\geq0\forall b\in A\},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+where 
+\begin_inset Formula $r$
+\end_inset
+
+ is a MU such that 
+\begin_inset Formula $r(x,y)=\max_{j\in\{1,\cdots,J\}}\min_{u\in U_{j}}(u(x)-u(y))$
+\end_inset
+
+ for any 
+\begin_inset Formula $x,y\in X$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Problem
+Let 
+\begin_inset Formula $\succeq^{D}$
+\end_inset
+
+ be defined as the direct revealed preference such that 
+\begin_inset Formula $x\succeq^{D}y\iff x\in c(A)$
+\end_inset
+
+ and 
+\begin_inset Formula $y\in A$
+\end_inset
+
+,
+ and 
+\begin_inset Formula $x\succ^{D}y\iff x\in c(A)$
+\end_inset
+
+ and 
+\begin_inset Formula $y\in A$
+\end_inset
+
+ but 
+\begin_inset Formula $y\notin c(A)$
+\end_inset
+
+.
+ We say WARP holds if 
+\begin_inset Formula $x\succeq^{D}y$
+\end_inset
+
+ implies not 
+\begin_inset Formula $y\succ^{D}x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+1.
+ Show that associated preferences 
+\begin_inset Formula $\succeq$
+\end_inset
+
+ to the MU preference function above may fail to be rational.
+ Hint:
+ Build a particular model that fails transitivity or completeness,
+ that it's a MU preference function.
+ You can simplify the problem assuming for this numeral only that 
+\begin_inset Formula $X$
+\end_inset
+
+ is finite and that 
+\begin_inset Formula $\mathcal{A}$
+\end_inset
+
+ consists of tuples and triples 
+\begin_inset Formula $\{x,y\},$
+\end_inset
+
+ 
+\begin_inset Formula $\{x,y,z\}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+2.
+ Show that when the multiple criteria are coherent,
+ namely 
+\begin_inset Formula $U_{j}\cap U_{i}\neq\emptyset$
+\end_inset
+
+,
+ then a choice correspondence that admits a MU preference function rationalization satisfies WARP.
+ Namely,
+ if 
+\begin_inset Formula $x\succeq^{D}y$
+\end_inset
+
+ then it cannot be that 
+\begin_inset Formula $y\succ^{D}x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+3.
+ (Partial converse) Assume now that 
+\begin_inset Formula $\mathcal{A}$
+\end_inset
+
+ is such that it contains every tuple and triple choice set such that 
+\begin_inset Formula $\{x,y\},\{x,y,z\}\in\mathcal{A}$
+\end_inset
+
+ for every 
+\begin_inset Formula $x,y,z\in X$
+\end_inset
+
+.
+ Show that if a choice correspondence 
+\begin_inset Formula $c$
+\end_inset
+
+ defined on this collection of choice sets satisfies WARP then there is a MU preference function that rationalizes it.
+ For this exercise you can assume that the preference relation that rationalizes this data set is a continuous preference relation and that 
+\begin_inset Formula $X\subseteq\mathbb{R}^{L}$
+\end_inset
+
+.
+ (Hint:
+ note that we are assuming that the choice correspondence it's nonempty).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.
+ Let us say (Decision maker) she is trying to buy a car,
+ and her three possible choices are a Ford,
+ a Toyota,
+ and a Subaru.
+ The choice set is 
+\begin_inset Formula $X=\{T,S,F\}$
+\end_inset
+
+.
+ There are three main coalitions of utilities that are identified with the importance of different car attributes that she is endowed with:
+ gas consumption (
+\begin_inset Formula $U_{g}$
+\end_inset
+
+),
+ reliability (
+\begin_inset Formula $U_{r}$
+\end_inset
+
+) and cost of maintenance (
+\begin_inset Formula $U_{c}$
+\end_inset
+
+).
+ The 
+\begin_inset Formula $U_{g}$
+\end_inset
+
+ coalition contains local utility 
+\begin_inset Formula $u_{g1}$
+\end_inset
+
+ that puts on top the most gas efficient vehicles hence it ranks first Toyota then Subaru and then Ford (
+\begin_inset Formula $u_{g1}(T)>u_{g1}(S)>u_{g1}(F)$
+\end_inset
+
+).
+ Also it contains a second utility that ranks vehicles in terms of power versus gas consumption ranking first Ford then Toyota and then Subaru 
+\begin_inset Formula $(u_{g2}(F)>u_{g1}(T)>u_{g1}(S))$
+\end_inset
+
+.
+ Coalition 
+\begin_inset Formula $U_{r}$
+\end_inset
+
+ contains local utility 
+\begin_inset Formula $u_{r1}$
+\end_inset
+
+ that puts on top the most reliable car in winter conditions hence ranking first Subaru then Ford and then Toyota (
+\begin_inset Formula $u_{r1}(S)>u_{r1}(F)>u_{r1}(T)$
+\end_inset
+
+).
+ Also,
+ it contains the local utility 
+\begin_inset Formula $u_{r2}$
+\end_inset
+
+ in terms of how reliable the vehicle is on off-road conditions ranking first Ford,
+ then Subaru and then Toyota 
+\begin_inset Formula $(u_{r2}(F)>u_{r2}(S)>u_{r2}(T)$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+This consumer is coherent so both coalitions share a common utility that takes into account gas consumption and reliability at the same time.
+ According to this utility 
+\begin_inset Formula $u_{gr}$
+\end_inset
+
+,
+ Ford is ranked first then Toyota and then Subaru 
+\begin_inset Formula $u_{gr}(F)>u_{gr}(T)>u_{gr}(S)$
+\end_inset
+
+.
+ Finally,
+ coalition 
+\begin_inset Formula $U_{c}$
+\end_inset
+
+ contains 
+\begin_inset Formula $u_{c1}$
+\end_inset
+
+ that ranks cars in terms of how expensive it is to repair them,
+ the cheapest one is Subaru then Toyota and then Ford (
+\begin_inset Formula $u_{c1}(S)>u_{c1}(T)>u_{c1}(F)$
+\end_inset
+
+).
+ Coalition 
+\begin_inset Formula $U_{c}$
+\end_inset
+
+ also contains the utilities 
+\begin_inset Formula $u_{g1}$
+\end_inset
+
+ and 
+\begin_inset Formula $u_{r1}$
+\end_inset
+
+ since gas consumption and reliability are related to the cost of maintenance satisfying coherency.
+ 
+\end_layout
+
+\begin_layout Standard
+When she compares the Ford to the Toyota,
+ all utilities that belong to the reliability criterion (
+\begin_inset Formula $U_{g}$
+\end_inset
+
+) agree that Ford is better than Toyota,
+ while the other ones are inconclusive.
+ Then this consumer declares that Ford is better than Toyota (
+\begin_inset Formula $F\succ T$
+\end_inset
+
+).
+ However,
+ when she compares the Toyota to the Subaru,
+ the attribute on which she focuses is the gas efficiency because all utilities that belong to this criterion agree that Toyota is preferred to Subaru (
+\begin_inset Formula $T\succ S$
+\end_inset
+
+).
+ Finally,
+ when comparing the Ford to the Subaru,
+ she focuses on cost of maintenance,
+ because according to this criterion Subaru is better than Ford for all utilities inside it 
+\begin_inset Formula $(S\succ F$
+\end_inset
+
+).
+ This consumer has aggregated her local rankings (local utilities) and produced a violation of transitivity as 
+\begin_inset Formula $F\succ T\succ S\succ F$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+However,
+ the consumer is still coherent and when facing a choice among three alternatives 
+\begin_inset Formula $\{F,S,T\}$
+\end_inset
+
+ she will not violate binary consistency.
+ Indeed she will remain undecided and pick nothing from this choice set.
+ Coherency requires that each pair of coalitions or criteria share at least one utility in common.
+ 
+\end_layout
+
+\begin_layout Standard
+2.
+ If 
+\begin_inset Formula $x\in c(A)$
+\end_inset
+
+ and 
+\begin_inset Formula $y\in A$
+\end_inset
+
+ it means that 
+\begin_inset Formula $r(x,y)\geq0$
+\end_inset
+
+ such that there is one 
+\begin_inset Formula $j^{*}$
+\end_inset
+
+ such that 
+\begin_inset Formula $\min_{u\in U_{j}^{*}}(u(x)-u(y))\geq0$
+\end_inset
+
+,
+ then assume that 
+\begin_inset Formula $y\succ^{D}x$
+\end_inset
+
+ this would mean that there is some set 
+\begin_inset Formula $y,x,z\in B$
+\end_inset
+
+ such that 
+\begin_inset Formula $r(y,x)\geq0$
+\end_inset
+
+ and there is some 
+\begin_inset Formula $z\in B$
+\end_inset
+
+ such that 
+\begin_inset Formula $r(x,z)<0$
+\end_inset
+
+.
+ The case where 
+\begin_inset Formula $z=y$
+\end_inset
+
+ it's ruled out easily as it will lead to a contradiction.
+ 
+\end_layout
+
+\begin_layout Standard
+The case of 
+\begin_inset Formula $r(y,x)>0$
+\end_inset
+
+ also is ruled out easily as this implies that 
+\begin_inset Formula $U^{**}$
+\end_inset
+
+ is such that 
+\begin_inset Formula $min_{u\in U^{**}}(u(y)-u(x))>0$
+\end_inset
+
+.
+ By the coherency property there is at least one 
+\begin_inset Formula $u\in U^{*}\cap U^{**}$
+\end_inset
+
+,
+ so this will contradict the fact that 
+\begin_inset Formula $r(x,y)\geq0$
+\end_inset
+
+ as it will imply that 
+\begin_inset Formula $r(x,y)<0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Now,
+ consider the case where 
+\begin_inset Formula $z\neq y$
+\end_inset
+
+ and 
+\begin_inset Formula $r(y,x)=0$
+\end_inset
+
+.
+ This means that for all 
+\begin_inset Formula $U\in\Omega=\{U_{j}\}_{j\in J}$
+\end_inset
+
+ there is a 
+\begin_inset Formula $u\in U$
+\end_inset
+
+ 
+\begin_inset Formula $u(x)=u(y)$
+\end_inset
+
+ and for all 
+\begin_inset Formula $u\in U$
+\end_inset
+
+,
+ 
+\begin_inset Formula $u(x)\geq u(y)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+In addition,
+ if 
+\begin_inset Formula $r(x,z)<0$
+\end_inset
+
+ then for all 
+\begin_inset Formula $U\in\Omega=\{U_{j}\}_{j\in J}$
+\end_inset
+
+ there is a 
+\begin_inset Formula $u\in U$
+\end_inset
+
+ such that 
+\begin_inset Formula $u(x)-u(z)<0$
+\end_inset
+
+.
+ By assumption 
+\begin_inset Formula $y\succ^{D}x$
+\end_inset
+
+ means that 
+\begin_inset Formula $y\in c(B)$
+\end_inset
+
+ for 
+\begin_inset Formula $x,y,z\in B$
+\end_inset
+
+.
+ This means that 
+\begin_inset Formula $r(y,z)\geq0$
+\end_inset
+
+,
+ this requires that there is a 
+\begin_inset Formula $U'$
+\end_inset
+
+ such that for all 
+\begin_inset Formula $u\in U'$
+\end_inset
+
+ 
+\begin_inset Formula $u(y)-u(z)\geq0$
+\end_inset
+
+.
+ But this means that 
+\begin_inset Formula $U'$
+\end_inset
+
+ contains a 
+\begin_inset Formula $u$
+\end_inset
+
+ such that 
+\begin_inset Formula $u(x)\geq u(y)$
+\end_inset
+
+,
+ 
+\begin_inset Formula $u(y)-u(z)\geq0$
+\end_inset
+
+ and 
+\begin_inset Formula $u(z)-u(x)>0$
+\end_inset
+
+,
+ put together we conclude that 
+\begin_inset Formula $u(z)>u(x)\geq u(y)\geq u(z)$
+\end_inset
+
+ for some 
+\begin_inset Formula $u\in U'$
+\end_inset
+
+ .
+ This is a contradiction,
+ which implies that if 
+\begin_inset Formula $x\succeq^{D}y$
+\end_inset
+
+ then not 
+\begin_inset Formula $y\succ^{D}x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+3.
+ If WARP holds,
+ then by Chapter 3 in MWG (and the notes) we know that there is a complete and transitive preference relation that rationalizes the data.
+ By the exercise premise we can assume that there is a utility representation 
+\begin_inset Formula $u$
+\end_inset
+
+ of that preference relation,
+ then let there be a unique utility 
+\begin_inset Formula $u$
+\end_inset
+
+ such that 
+\begin_inset Formula $U_{1}=\{u\}$
+\end_inset
+
+ and then this means that 
+\begin_inset Formula $r(x,y)=u(x)-u(y)=\max_{i\in\{1\}}\min_{u\in\{u\}}(u(x)-u(y))$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+Quasilinear Welfare Analysis.
+ 
+\end_layout
+
+\begin_layout Problem
+Consider a finite dataset of observations 
+\begin_inset Formula $O^{T}=\{p^{t},x^{t}\}_{t=1}^{T}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Problem
+Consider a consumer that maximizes a quasilinear utility function,
+ such that:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+x^{t}\in arg\max_{x\in X}u(x)-p^{t}\cdot x,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+for a given price vector 
+\begin_inset Formula $p^{t}\in\mathbb{R}_{++}^{L}$
+\end_inset
+
+,
+ where 
+\begin_inset Formula $u$
+\end_inset
+
+ is a continuous,
+ concave,
+ strictly increasing utility function,
+ and 
+\begin_inset Formula $X\subseteq\mathbb{R}_{+}^{L}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Problem
+1) Show that the dataset 
+\begin_inset Formula $O^{T}$
+\end_inset
+
+ is such that there exists numbers 
+\begin_inset Formula $v^{t}\in\mathbb{R}$
+\end_inset
+
+ such that:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+\text{\textbf{QuasilinearAfriat Inequalities}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+v^{t}-v^{s}\geq p^{t}\cdot(x^{t}-x^{s})=p^{t}(x^{t}-x^{s})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+for all 
+\begin_inset Formula $t,s\in\{1,\cdots,T\}$
+\end_inset
+
+ (Note:
+ the dot product notation is ommited as indicated above).
+ 
+\end_layout
+
+\begin_layout Problem
+2) Show that we can bound below the utility difference between any two bundles 
+\begin_inset Formula $x^{t},x^{s}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $u(x^{t})-u(x^{s})$
+\end_inset
+
+,
+ by:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+u(x^{t})-u(x^{s})\geq p^{t}(x^{t}-x^{1})+p^{1}(x^{1}-x^{2})+\cdots+p^{n}(x^{n}-x^{s}),
+\]
+
+\end_inset
+
+for any arbitrary subsequence of data points 
+\begin_inset Formula $(p^{i},x^{i})_{i=1}^{n}\subseteq O^{T}$
+\end_inset
+
+.
+ (This is useful for welfare analysis).
+ 
+\end_layout
+
+\begin_layout Problem
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula $u(x^{t})-u(x^{1})\geq p^{t}(x^{t}-x^{1})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula $u(x^{1})-u(x^{2})\geq p^{1}(x^{1}-x^{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula $u(x^{n})-u(x^{s})\geq p^{n}(x^{n}-x^{s})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+Adding up over all inequalities I obtain:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula $u(x^{t})-u(x^{s})\geq p^{t}(x^{t}-x^{1})+p^{1}(x^{1}-x^{2})+\cdots+p^{n}(x^{n}-x^{s}).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+3) The indirect utility of a price 
+\begin_inset Formula $p^{t}$
+\end_inset
+
+ is given by:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+v(p^{t})=\max_{x}u(x)-p^{t}x.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+Show that if 
+\begin_inset Formula $p^{t}x^{s}\leq(<)p^{s}x^{s}$
+\end_inset
+
+ then 
+\begin_inset Formula $v(p^{t})-v(p^{s})\geq(>)0.$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Problem
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula $v(p^{t})=u(x^{t})-p^{t}x^{t}\geq u(x^{s})-p^{t}x^{s}$
+\end_inset
+
+ because of maximization
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula $u(x^{s})-p^{t}x^{s}\geq u(x^{s})-p^{s}x^{s}=v(p^{s})$
+\end_inset
+
+,
+ because 
+\begin_inset Formula $p^{t}x^{s}\leq(<)p^{s}x^{s}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Problem
+Note that,
+ if 
+\begin_inset Formula $x^{s}(p^{s}-p^{t})\geq0$
+\end_inset
+
+ then 
+\begin_inset Formula $v(p^{t})\geq v(p^{s})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Problem
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+4) Show that if 
+\begin_inset Formula $O^{T}$
+\end_inset
+
+ satisfies the Quasilinear Afriat Inequalities,
+ there is a concave,
+ strictly increasing continuous utility function 
+\begin_inset Formula $u$
+\end_inset
+
+,
+ such that:
+\end_layout
+
+\begin_layout Problem
+\begin_inset Formula 
+\[
+x^{t}\in arg\max_{x\in X}u(x)-p^{t}\cdot x,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+for a given 
+\begin_inset Formula $t\in\{1,\cdots,T\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Problem
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+Here we use the Afriat's theorem construction and verify that it satisfies quasilinear rationalizability.
+ 
+\end_layout
+
+\begin_layout Problem
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+5) Say that inflation rate is such that,
+ and out-of-sample (not in 
+\begin_inset Formula $O^{T})$
+\end_inset
+
+ price 
+\begin_inset Formula $p^{T+1}$
+\end_inset
+
+ is such that 
+\begin_inset Formula $x^{1}(p^{2}-p^{1})\geq0,x^{2}(p^{3}-p^{2})\geq0,\cdots,x^{T}(p^{T+1}-p^{T})\geq0$
+\end_inset
+
+.
+ What can I conclude in terms of welfare for this individual:
+ Is she better-off or worse-off in 
+\begin_inset Formula $T+1,$
+\end_inset
+
+ with respect to every 
+\begin_inset Formula $t\in\{1,\cdots,T\}$
+\end_inset
+
+?
+ 
+\end_layout
+
+\begin_layout Problem
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+We let 
+\begin_inset Formula $x^{1}(p^{2}-p^{1})\geq(>)0\iff p^{1}\succeq_{p}(\succ_{p})p^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Problem
+The consumer is weakly worse-off because 
+\begin_inset Formula $p^{T}\succeq_{p}p^{T+1}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $p^{T-1}\succeq_{p}p^{T},\cdots,p^{1}\succeq_{p}p^{2}$
+\end_inset
+
+,
+ this means that 
+\begin_inset Formula $v(p^{t})\geq v(p^{T+1})$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Problem
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Problem
+(Attraction Effect and Choice Overload)
+\end_layout
+
+\begin_layout Problem
+(60 points) (Too much choice/Choice overload and the Attraction Effect) Propose a model for consumer behavior that captures the following stylized facts.
+ 
+\end_layout
+
+\begin_layout Itemize
+Choice Overload:
+ Consumers are more likely to choose an outside option (that we equate in this problem to not choosing) when the size of the menu is too big.
+ Hint:
+ The choice set is 
+\begin_inset Formula $X\cup\{o\}$
+\end_inset
+
+ where 
+\begin_inset Formula $o$
+\end_inset
+
+ is an outside option (not in 
+\begin_inset Formula $X$
+\end_inset
+
+).
+ Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be finite.
+ Menus are of the form 
+\begin_inset Formula $A\cup\{o\}$
+\end_inset
+
+ where 
+\begin_inset Formula $A\subseteq X$
+\end_inset
+
+,
+ i.e.,
+ the outside option is always available to the consumer.
+ 
+\end_layout
+
+\begin_layout Itemize
+Attraction Effect:The 
+\series bold
+attraction effect
+\series default
+ is the observation that if we add an alternative to a menu,
+ then some existing item becomes more attractive to the consumer and is picked by her.
+ This introduced object is usually called the decoy.
+ 
+\end_layout
+
+\begin_layout Standard
+In formal terms,
+ 
+\begin_inset Formula $b^{-}\in X$
+\end_inset
+
+ be the decoy,
+ so we are going to study its impact in the choice of the object of interest 
+\begin_inset Formula $b\in X$
+\end_inset
+
+.
+ The observation is the following:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+b\in c(A\cup\{b^{-}\})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+b\notin c(A),b\in A.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In probabilities,
+ it means that
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p(b,A\cup\{b^{-}\})>p(b,A).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+You should describe with words what is the consumer choice algorithm.
+ The model can be deterministic or stochastic,
+ your choice.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Then you should describe what is 
+\begin_inset Quotes eld
+\end_inset
+
+new
+\begin_inset Quotes erd
+\end_inset
+
+ in your model and how that relates to some behavioral or bounded rationality feature we learned in class,
+ and how it differs from utility maximization.
+\end_layout
+
+\begin_layout Enumerate
+Finally you should write the behavioral maximization problem and show how your new model predicts the two stylized facts.
+ Also show,
+ that the rational benchmark cannot deal with this models (neither random utility or deterministic utility maximization can predict the choice overload or attraction effect).
+ 
+\end_layout
+
+\begin_layout Enumerate
+You should try to explain the model to me in the best way you can,
+ by using words,
+ diagrams and examples.
+ However,
+ you should have also formality,
+ make the effort to write down the model using math,
+ this is the only way to get full credit.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Describe what other testable implications your proposed model has.
+ 
+\end_layout
+
+\begin_layout Section*
+My model
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be a finite set of choices,
+ and 
+\begin_inset Formula $o$
+\end_inset
+
+ a default,
+ the grand choice set is 
+\begin_inset Formula $X^{*}=X\cup\{o\}$
+\end_inset
+
+.
+ The menus are 
+\begin_inset Formula $\mathcal{A}\subseteq2^{X^{*}}$
+\end_inset
+
+ such that 
+\begin_inset Formula $A\in\mathcal{A}$
+\end_inset
+
+ has at least two elements 
+\begin_inset Formula $|A|\geq2$
+\end_inset
+
+,
+ and 
+\begin_inset Formula $o\in A$
+\end_inset
+
+ always.
+ This default is always present.
+ 
+\end_layout
+
+\begin_layout Standard
+The consumer is endowed with a utility function 
+\begin_inset Formula $u:X^{*}\to\mathbb{R}$
+\end_inset
+
+ such that 
+\begin_inset Formula $u(o)=0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The consumer also has an attention index 
+\begin_inset Formula $\eta:2^{X}\setminus\{o\}\to\mathbb{R}$
+\end_inset
+
+ that assigns how much attention does she pays to a bundle of items,
+ e.g.,
+ 
+\begin_inset Formula $\eta(\{a,b,o\})=3$
+\end_inset
+
+ and 
+\begin_inset Formula $\eta(\{a,o\})=\eta(\{b,o\})=1$
+\end_inset
+
+ means that the consumer pays more attention to 
+\begin_inset Formula $a,b$
+\end_inset
+
+ when they are together than alone.
+ We let 
+\begin_inset Formula $\eta(\emptyset)=-\infty$
+\end_inset
+
+,
+ we also let 
+\begin_inset Formula $\eta(D)=-\infty$
+\end_inset
+
+ if 
+\begin_inset Formula $o\notin D.$
+\end_inset
+
+ Now let 
+\begin_inset Formula $\eta_{A}(\{o\})=|A|$
+\end_inset
+
+ for every menu 
+\begin_inset Formula $A\in\mathcal{A}$
+\end_inset
+
+.
+ This means that for all other bundles that are not 
+\begin_inset Formula $\{o\}$
+\end_inset
+
+ the attention index is always the same across menus,
+ but for the default it changes with the cardinality.
+ Let 
+\begin_inset Formula $\eta_{A}(D)=\eta(D)$
+\end_inset
+
+ when 
+\begin_inset Formula $A\neq\{o\}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+This consumer is stochastic,
+ so she will choose how much attention to pay to different alternatives solving the following problem.
+ Attention is given as the probability of considering 
+\begin_inset Formula $B\subseteq A$
+\end_inset
+
+ for menu 
+\begin_inset Formula $A\in\mathcal{A}$
+\end_inset
+
+.
+ This is modelled as 
+\begin_inset Formula $m_{A}\in\Delta(2^{A})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m_{A}^{*}=argmax_{m_{A}\in\Delta(2^{A})}\sum_{D\subseteq A}(m_{A}(D)\eta_{A}(D)-K(\eta_{A}(D))).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where the 
+\begin_inset Formula $K(\eta(D))=\theta\eta_{A}(D)\log\eta_{A}(D)$
+\end_inset
+
+ is a convex cost function,
+ in fact it is an entropy cost.
+\end_layout
+
+\begin_layout Standard
+Under this we get that:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m_{A}(D)=\frac{exp(\theta\eta_{A}(D))}{\sum_{B\subseteq A}exp(\theta\eta_{A}(B))}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now,
+ we can compute the probability of choosing 
+\begin_inset Formula $a\in\mathcal{A}:$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\rho_{A}(a)=\sum_{D\subseteq A}1(u(a)>u(b)\forall b\in D\setminus\{a\})m_{A}(D).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is the probability of choice is the expected frequency of times 
+\begin_inset Formula $a$
+\end_inset
+
+ is the best item among the consideration set 
+\begin_inset Formula $D$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $D$
+\end_inset
+
+ is a random realization of the random consideration set distributed with 
+\begin_inset Formula $m_{A}\in\Delta(2^{A})$
+\end_inset
+
+,
+ choice is random.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Choice overload
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $X=\{a,b,c\}$
+\end_inset
+
+ such that 
+\begin_inset Formula $u(a)=3,u(b)=2,u(c)=1$
+\end_inset
+
+ and 
+\begin_inset Formula $u(o)=0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The consumer picks 
+\begin_inset Formula $o$
+\end_inset
+
+ only with probability 
+\begin_inset Formula $m_{A}(\{o\})$
+\end_inset
+
+,
+ so we want 
+\begin_inset Formula $m_{B}(\{o\})>m_{A}(\{o\})$
+\end_inset
+
+ when 
+\begin_inset Formula $B\supset A$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+We need the following attention index 
+\begin_inset Formula $\eta(\{a,o\})=\eta(\{b,o\})=\eta(\{c,o\})=1$
+\end_inset
+
+,
+ 
+\begin_inset Formula $\eta(\{a,b,o\})=\eta(\{b,c,o\})=\eta(\{a,c,o\})=2$
+\end_inset
+
+,
+ 
+\begin_inset Formula $\eta(\{a,b,c,o\})=3$
+\end_inset
+
+.
+ We have that 
+\begin_inset Formula $\eta_{A}(\{o\})=|A|$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The default is easy to understand,
+ so the attention index 
+\begin_inset Formula $\eta_{A}(\{o\})$
+\end_inset
+
+ measures the opportunity cost of paying to attention to any item that is not the default.
+ 
+\end_layout
+
+\begin_layout Standard
+Plugging back the definition of 
+\begin_inset Formula $\eta_{A}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m_{\{a,b,c,o\}}(\{o\})=\frac{exp(4\theta)}{10+exp(4\theta)}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m_{\{a,b,o\}}(\{o\})=\frac{exp(3\theta)}{4+exp(3\theta)}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Choice overload happens when 
+\begin_inset Formula $\theta=1$
+\end_inset
+
+ and other values:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename midtermfiguremodel.pdf
+	lyxscale 150
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{1}-m_{2}=m_{\{a,b,c,o\}}(\{o\})-m_{\{a,b,o\}}(\{o\})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I conclude that 
+\begin_inset Formula $\rho_{B}(o)>\rho_{A}(o)$
+\end_inset
+
+,
+ when 
+\begin_inset Formula $B=\{a,b,c,o\}$
+\end_inset
+
+ and 
+\begin_inset Formula $A=\{a,b,o\}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Attraction Effect
+\end_layout
+
+\begin_layout Standard
+Consider 
+\begin_inset Formula $X=\{b,b^{-},c\}$
+\end_inset
+
+ such that 
+\begin_inset Formula $u(b)=3$
+\end_inset
+
+,
+ 
+\begin_inset Formula $u(b^{-})=2,u(c)=1$
+\end_inset
+
+,
+ also 
+\begin_inset Formula $\eta(\{b,o\})=\eta(\{b^{-},o\})=\eta(\{c,o\})=1$
+\end_inset
+
+,
+ 
+\begin_inset Formula $\eta(\{b,b^{-},o\})=3$
+\end_inset
+
+,
+ and 
+\begin_inset Formula $\eta(\{b,c,o\})=\eta(\{b^{-},c,o\})=2$
+\end_inset
+
+,
+ 
+\begin_inset Formula $\eta(\{b,b^{-},c,o\})=5$
+\end_inset
+
+,
+ as before we have 
+\begin_inset Formula $\eta_{A}(\{o\})=|A|$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rho_{\{b,c,o\}}(b)<\rho_{\{b,b^{-},c,o\}}(b)$
+\end_inset
+
+,
+ since 
+\begin_inset Formula $u(b)$
+\end_inset
+
+ is the best option it is not picked only because the agent does not pay attention to it.
+ 
+\end_layout
+
+\begin_layout Standard
+So we have to show that 
+\begin_inset Formula $y=m_{\{b,c,o\}}(\{b,o\})+m_{\{b,c,o\}}(\{b,c,o\})$
+\end_inset
+
+ is less than 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x=m_{\{b,b^{-},c,o\}}(\{b,o\})+m_{\{b,b^{-},c,o\}}(\{b,c,o\})+m_{\{b,b^{-},c,o\}}(\{b,b^{-},o\})+m_{\{b,b^{-},c,o\}}(\{b,b^{-},c,o\})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x=.146
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=.12
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\rho_{\{b,c,o\}}(b)=.12<\rho_{\{b,b^{-},o\}}(b)=.146
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Attraction effect is explained here by the complementarities of attention that makes 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\eta(\{b,b^{-},o\})=3>\eta(\{b,o\})+\eta(\{b^{-},o\}).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For the calibration above Testable implication 1.
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $|A|\geq|B|$
+\end_inset
+
+ then 
+\begin_inset Formula $\rho_{A}(o)\geq\rho_{B}(o)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Further testable implications.
+ The main issue is when to stop,
+ and that is when you need a characterization theorem.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Grading Criterion
+\end_layout
+
+\begin_layout Enumerate
+Work group is not allowed,
+ if I find out that several of you have essentially the same model,
+ you will receive the total grade of this question divided by the number of students that share the same response.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The last question will be graded on the following 5 items:
+ Logical consistency of the decision algorithm.
+ Clarity of the explanation of the decision algorithm.
+ Degree of success in explaining the behavioral effects.
+ Clarity in the explanation of the behavioral effect using the decision algorithm.
+ Ability of your model to be able to have testable implications (not everything goes).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
