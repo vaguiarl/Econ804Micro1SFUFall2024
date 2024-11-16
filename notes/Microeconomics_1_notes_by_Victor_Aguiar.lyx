@@ -20619,7 +20619,7 @@ max_{x\in X_{i}}u_{i}(x_{i})
 \begin_layout Definition
 \begin_inset Formula 
 \[
-s.t.\quad p\cdot x_{i}\leq p\cdot\omega_{i}+\sum_{j=1}^{J}\theta_{ij}(p\cdot y_{j}),
+s.t.\quad p\cdot x_{i}\leq p\cdot\omega_{i}+\sum_{j=1}^{J}\theta_{ij}p\cdot y_{j},
 \]
 
 \end_inset

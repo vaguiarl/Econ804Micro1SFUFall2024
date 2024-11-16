@@ -17589,6 +17589,36 @@ There is a surprising result about random utility.
 \end_layout
 
 \begin_layout Standard
+When we have access to a sample analogue of 
+\begin_inset Formula $\rho$
+\end_inset
+
+,
+ call it 
+\begin_inset Formula $\hat{\rho}$
+\end_inset
+
+ for a finite sample then we can solve the following problem,
+ roughly,
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $min_{\pi}||M\pi-\hat{\rho}||^{2}$
+\end_inset
+
+ where 
+\begin_inset Formula $||\cdot||$
+\end_inset
+
+ is a (euclidean) norm,
+ so there are techniques to deal with this hypothesis testing problem,
+ in the work of Kitamura and Stoye (2019,
+ Econometrica).
+ 
+\end_layout
+
+\begin_layout Standard
 Consider the following definition.
 \end_layout
 
