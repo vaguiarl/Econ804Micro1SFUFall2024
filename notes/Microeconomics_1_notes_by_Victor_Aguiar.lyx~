@@ -20619,7 +20619,7 @@ max_{x\in X_{i}}u_{i}(x_{i})
 \begin_layout Definition
 \begin_inset Formula 
 \[
-s.t.\quad p\cdot x_{i}\leq p\cdot\omega_{i}+\sum_{j=1}^{J}\theta_{ij}(p\cdot y_{j}),
+s.t.\quad p\cdot x_{i}\leq p\cdot\omega_{i}+\sum_{j=1}^{J}\theta_{ij}p\cdot y_{j},
 \]
 
 \end_inset
@@ -21749,6 +21749,25 @@ Solving this:
 
 \end_layout
 
+\begin_layout Example
+You can always set without loss of generality 
+\begin_inset Formula $p_{2}^{*}=1$
+\end_inset
+
+,
+ in which case 
+\begin_inset Formula $p_{1}^{*}=\frac{\alpha}{1-\alpha}$
+\end_inset
+
+,
+ and then we can plug-it back in the OC for consumer 1 and 2 to obtain the allocations 
+\begin_inset Formula $x^{*}$
+\end_inset
+
+.
+ 
+\end_layout
+
 \begin_layout Definition
 (Pareto Optimality/Edgeworth Box) An allocation 
 \begin_inset Formula $x$
@@ -22101,7 +22120,7 @@ x_{2}=f(\overline{L}-x_{1}).
 \end_layout
 
 \begin_layout Claim
-Claim 10 is saying is that the descentralized problem stated before has the same solution as the central planner problem.
+Claim 10 is saying is that the decentralized problem stated before has the same solution as the central planner problem.
  
 \end_layout
 
