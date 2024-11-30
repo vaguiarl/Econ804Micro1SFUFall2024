@@ -1,0 +1,2745 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass amsart
+\begin_preamble
+%\documentclass[a4paper,12pt]{amsart}
+\usepackage{amsfonts,graphicx,multicol,shadow}
+\usepackage{bbm}
+%\usepackage[spanish]{babel}
+%\usepackage[latin1]{inputenc}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{array} 
+%%\usepackage{dsfont}
+\usepackage{exercise}
+\usepackage[all]{xy}
+\usepackage[margin=3cm]{geometry}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{arrows}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\U}{\mathbb{U}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\D}{\mathbb{D}}
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\Q}{\mathbb{Q}}
+\renewcommand{\S}{\mathbb{S}}
+
+
+\newcommand{\iso}[3]{$\SelectTips{eu}{10}\xymatrix@1@C=20pt{#3: #1\ \ar[r]^-{\sim}& #2}$}
+\newcommand{\mor}[3]{$\SelectTips{eu}{10}\xymatrix@1@C=20pt{#3: #1\ \ar[r]& #2}$}
+\newcommand{\mono}[3]{$\SelectTips{eu}{10}\xymatrix@1@C=20pt{#3: #1\ \ar@{^(->}[r]& #2}$}
+\newcommand{\epi}[3]{$\SelectTips{eu}{10}\xymatrix@1@C=20pt{#3: #1\ \ar@{->>}[r]& #2}$}
+
+\newcommand{\Aut}[1]{{\sf Aut}(#1)}
+\newcommand{\Int}[1]{{\sf Int}(#1)}
+\newcommand{\Ker}[1]{{\sf Ker}(#1)}
+\renewcommand{\Im}[1]{{\sf Im}(#1)}
+\newcommand{\Hom}[2]{{\sf Hom}(#1,#2)}
+\newcommand{\Stab}[1]{{\sf Stab}(#1)}
+
+
+\renewcommand{\a}{\alpha}
+\renewcommand{\b}{\beta}
+\newcommand{\f}{\phi}
+\renewcommand{\j}{\iota}
+\newcommand{\p}{\pi}
+\newcommand{\s}{\sigma}
+\renewcommand{\l}{\lambda}
+
+
+
+
+
+\makeatletter
+\renewcommand%
+{\subsection}{\@startsection{subsection}{2}{0mm}
+{-\baselineskip}{0 \baselineskip}%
+{\normalfont\bfseries}}%
+\makeatother
+
+\makeatletter
+\renewcommand%
+{\section}{\@startsection{section}{1}{0mm}
+{-\baselineskip}{0.25\baselineskip}%
+{\normalfont\large\bfseries}}%
+\makeatother
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children no
+\language english
+\language_package default
+\inputencoding auto-legacy
+\fontencoding auto
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Title
+MICROECONOMICS 1 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+ Problem set 8
+\end_layout
+
+\begin_layout Author
+Víctor H.
+ Aguiar.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise
+Offer curves.
+ Draw the offer curves that correspond to all possible prices in the following exchange economies.
+ Identify the competitive equilibrium allocation and their associated prices.
+ In all the economies,
+ there are two agents 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+ and two commodities 
+\begin_inset Formula $1$
+\end_inset
+
+ and 
+\begin_inset Formula $2$
+\end_inset
+
+,
+ and the initial endowments are 
+\begin_inset Formula $\omega^{A}=(2/3,1/3)$
+\end_inset
+
+ and 
+\begin_inset Formula $\omega^{B}=(1/3,2/3)$
+\end_inset
+
+.
+ The utility functions that represent the agent's preferences in each economy are:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(a) 
+\begin_inset Formula $u^{A}(x^{A},y^{A})=min\{x^{A},3y^{A}\}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $u^{B}(x^{B},y^{B})=min\{3x^{B},y^{B}\}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Max 
+\begin_inset Formula $u^{i}(x^{i},y^{i})=min\{\alpha^{i}x^{i},\beta^{i}y^{i}\}$
+\end_inset
+
+ subject to 
+\begin_inset Formula $p_{x}x^{i}+p_{y}y^{i}\leq p_{x}\omega_{x}^{i}+p_{y}\omega_{y}^{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Normalize 
+\begin_inset Formula $p_{x}=1$
+\end_inset
+
+.
+ Then
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha x^{i}=\beta y^{i}$
+\end_inset
+
+ 
+\begin_inset Formula $x^{i}=\frac{\beta}{\alpha}y^{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\beta}{\alpha}y^{i}+p_{y}y^{i}=p_{x}\omega_{x}^{i}+p_{y}\omega_{y}^{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y^{i}=\frac{\alpha w_{x}^{i}+\alpha p_{y}\omega_{y}^{i}}{(\beta+\alpha p_{y})}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $w_{x}^{i}+p_{y}\omega_{y}^{i}-p_{y}\frac{\beta w_{x}^{i}+\beta p_{y}\omega_{y}^{i}}{(\alpha+\beta p_{y})}=x^{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha w_{x}^{i}+\beta p_{y}w_{x}^{i}+\alpha p_{y}w_{y}^{i}+\beta p_{y}p_{y}w_{y}^{i}-\beta p_{y}w_{x}^{i}-\beta p_{y}p_{y}\omega_{y}^{i}=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x^{i}=\frac{\beta(w_{x}^{i}+p_{y}w_{y}^{i})}{(\beta+\alpha p_{y})}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+That is the offer curve of consumer 
+\begin_inset Formula $A$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $OC^{A}(p_{y})=\left(\frac{3(\frac{2}{3}+p_{y}\frac{1}{3})}{(3+p_{y})},\frac{\frac{2}{3}+\frac{1}{3}p_{y}}{(3+p_{y})}\right)$
+\end_inset
+
+ and we have to add a point 
+\begin_inset Formula $w^{A}$
+\end_inset
+
+ to this set of points,
+ such that 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $OC^{A}=\{(x,y)\in X|x=\frac{3(\frac{2}{3}+p_{y}\frac{1}{3})}{(3+p_{y})},y=\frac{\frac{2}{3}+\frac{1}{3}p_{y}}{(3+p_{y})}|p_{y}>0\}\cup\{w^{A}|p_{y}=0\}$
+\end_inset
+
+ That is a discontinuous offer curve.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $OC^{B}(p_{y})=\left(\frac{(\frac{1}{3}+p_{y}\frac{2}{3})}{(1+3p_{y})},\frac{3(\frac{1}{3}+p_{y}\frac{2}{3})}{(1+3p_{y})}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The competitive equilibrium is
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{3(\frac{2}{3}+p_{y}\frac{1}{3})}{(3+p_{y})}+\frac{(\frac{1}{3}+p_{y}\frac{2}{3})}{(1+3p_{y})}=\omega_{x}^{A}+\omega_{x}^{B}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{3+p_{y}-2-p_{y}}{(3+p_{y})}=\frac{(\frac{1}{3}+p_{y}\frac{2}{3})}{(1+3p_{y})}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $1+3p_{y}=1+2p_{y}+\frac{1}{3}p_{y}+\frac{2}{3}p_{y}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{2}{3}p_{y}=\frac{2}{3}p_{y}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{y}^{2}-p_{y}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There are two cases:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{y}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There is no exchange,
+ and for all prices the offer curve is just the endowment for each consumer.
+\end_layout
+
+\begin_layout Standard
+For positive prices the equilibrium happens at
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{y}^{*}=1$
+\end_inset
+
+ on the offer curve.
+\end_layout
+
+\begin_layout Standard
+The price ratio 
+\begin_inset Formula $\frac{p_{x}^{*}}{p_{y}^{*}}=1$
+\end_inset
+
+,
+ this is the price associated with the competitive equilibrium.
+ 
+\end_layout
+
+\begin_layout Standard
+The allocations associated with this prices are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\{x^{A},y^{A}\}=\left(\frac{3}{4},\frac{1}{4}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\{x^{B},y^{B}\}=\left(\frac{1}{(4)},\frac{3}{4}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consumer 
+\begin_inset Formula $A$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x^{A}=3y^{A}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $v^{A}=\frac{2}{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consumer 
+\begin_inset Formula $B$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $x^{B}=3y^{B}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $v^{B}=\frac{2}{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Both can be at least better off,
+ A can give B some of its endowment of 
+\begin_inset Formula $w_{y}^{A}$
+\end_inset
+
+ in exchange to some 
+\begin_inset Formula $w_{x}^{B}$
+\end_inset
+
+,
+ and both will be immediately better off.
+\end_layout
+
+\begin_layout Standard
+So there is exchange.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Edgeworth box
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Offer Curves diagonal lines in blue for Consumer A,
+ South West origin.
+\end_layout
+
+\begin_layout Plain Layout
+Offer Curve diagonal line in purple for Consumer B,
+ North East origin.
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../../Dropbox/WesternAP/FirstYear/MicroI/notes/leontiefedgeworth.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Offer Curves
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Consumer A
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../../Dropbox/WesternAP/FirstYear/MicroI/notes/offercurveA.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Consumer B
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../../Dropbox/WesternAP/FirstYear/MicroI/notes/offercurveB.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(b) 
+\begin_inset Formula $u^{A}(x^{A},y^{A})=3y^{A},u^{B}(x^{B},y^{B})=3x^{B}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{y}y^{A}=\frac{2}{3}+p_{y}\frac{1}{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y^{A}=\frac{\frac{2}{3}+p_{y}\frac{1}{3}}{p_{y}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x^{B}=\frac{1}{3}+p_{y}(\frac{2}{3})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The offer curve is the locus formed by the union of 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\overline{OC_{A}}(p_{y})=\left(0,\frac{\frac{2}{3}+p_{y}\frac{1}{3}}{p_{y}}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $OC_{A}=\{(x,y)\in X|x=0,y=\frac{\frac{2}{3}+p_{y}\frac{1}{3}}{p_{y}},p_{y}>0\}\cup\{w^{A}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\overline{OC_{B}}(p_{y})=\left(\frac{1}{3}+p_{y}(\frac{2}{3}),0\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $OC_{B}=\{(x,y)\in X|x=\frac{1}{3}+p_{y}(\frac{2}{3}),y=0,p_{y}>0\}\cup\{w^{B}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The equilibrium exists,
+ since both can exchange their endowments to reach a higher utility level.
+\end_layout
+
+\begin_layout Standard
+For market 
+\begin_inset Formula $x$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{1}{3}+p_{y}(\frac{2}{3})=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{y}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{p_{x}}{p_{y}}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then the other market is also cleared and the competitive equilibrium is associated at 
+\begin_inset Formula $\frac{p_{x}}{p_{y}}=1$
+\end_inset
+
+ are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\{x^{A},y^{A}\}=\{0,1\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\{x^{B},y^{B}\}=\{1,0\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Edgeworth box
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../../Dropbox/WesternAP/FirstYear/MicroI/notes/linealedgeworth.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Legend:
+\end_layout
+
+\begin_layout Plain Layout
+Offer Curves:
+ orange.
+\end_layout
+
+\begin_layout Plain Layout
+Red:
+ maximum utility level.
+\end_layout
+
+\begin_layout Plain Layout
+Green:
+ Budget constraint.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Offer Curves
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Consumer A
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../../Dropbox/WesternAP/FirstYear/MicroI/notes/offercurveAlineal.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Consumer B
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../../Dropbox/WesternAP/FirstYear/MicroI/notes/offercurveBlineal.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Legend:
+\end_layout
+
+\begin_layout Plain Layout
+Indifference Curves:
+ black
+\end_layout
+
+\begin_layout Plain Layout
+Offer Curves:
+ orange.
+\end_layout
+
+\begin_layout Plain Layout
+Red:
+ maximum utility level.
+\end_layout
+
+\begin_layout Plain Layout
+Green:
+ Budget constraint.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(c) 
+\begin_inset Formula $u^{A}(x^{A},y^{A})=-(x^{A}-0.9)^{2}-(y^{A}-0.9)^{2}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $u^{B}(x^{B},y^{B})=-(x^{B}-0.9)^{2}-(y^{B}-0.9)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Both agents would have maximum utility at the unfeasible allocation 
+\begin_inset Formula $\{x^{i},y^{i}\}=\{.9,.9\}$
+\end_inset
+
+,
+ since their endowment is different than such bliss point they will get involved in exchange.
+ 
+\end_layout
+
+\begin_layout Standard
+Max 
+\begin_inset Formula $-(x^{i}-0.9)^{2}-(y^{i}-0.9)^{2}$
+\end_inset
+
+ s.t.
+ 
+\begin_inset Formula $x^{i}+p_{y}y^{i}=w_{x}^{i}+p_{y}w_{y}^{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-2(x^{i}-0.9)=\lambda$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-2(y^{i}-0.9)=\lambda p_{y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{(x^{i}-0.9)}{(y^{i}-0.9)}=\frac{1}{p_{y}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x^{i}=\frac{(y^{i}-0.9)}{p_{y}}+0.9$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{(y^{i}-0.9)}{p_{y}}+0.9+p_{y}y^{i}=w_{x}^{i}+p_{y}w_{y}^{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y^{i}(\frac{1}{p_{y}}+p_{y})=w_{x}^{i}+p_{y}w_{y}^{i}-0.9+\frac{0.9}{p_{y}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y^{i}=\frac{w_{x}^{i}+p_{y}w_{y}^{i}-0.9+\frac{0.9}{p_{y}}}{(\frac{1}{p_{y}}+p_{y})}=\frac{p_{y}w_{x}^{i}+p_{y}^{2}w_{y}^{i}-p_{y}0.9+0.9}{1+p_{y}^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x^{i}=\frac{p_{y}w_{x}^{i}+p_{y}^{2}w_{y}^{i}-p_{y}0.9+0.9}{p_{y}(1+p_{y}^{2})}-\frac{0.9}{p_{y}}+0.9$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now the offer curve for 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $OC_{A}(p_{y})=\left(\frac{p_{y}\frac{2}{3}+p_{y}^{2}\frac{1}{3}-p_{y}0.9+0.9}{p_{y}(1+p_{y}^{2})}-\frac{0.9}{p_{y}}+0.9,\frac{p_{y}\frac{2}{3}+p_{y}^{2}\frac{1}{3}-p_{y}0.9+0.9}{1+p_{y}^{2}}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+added 
+\begin_inset Formula $w^{A}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $OC_{B}(p_{y})=\left(\frac{p_{y}\frac{1}{3}+p_{y}^{2}\frac{2}{3}-p_{y}0.9+0.9}{p_{y}(1+p_{y}^{2})}-\frac{0.9}{p_{y}}+0.9,\frac{p_{y}\frac{1}{3}+p_{y}^{2}\frac{2}{3}-p_{y}0.9+0.9}{1+p_{y}^{2}}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+added 
+\begin_inset Formula $w^{B}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The prices that clear the market for 
+\begin_inset Formula $y$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{y}=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{p_{x}}{p_{y}}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The allocation associated with these price ratios are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\{x^{A},y^{A}\}=\left(\frac{1}{2},\frac{1}{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\{x^{B},y^{B}\}=\left(\frac{1}{2},\frac{1}{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Edgeworth box
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../../Dropbox/WesternAP/FirstYear/MicroI/notes/circleedgeworth.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Legend:
+\end_layout
+
+\begin_layout Plain Layout
+Offer Curves:
+ orange.
+\end_layout
+
+\begin_layout Plain Layout
+Red:
+ maximum utility level.
+\end_layout
+
+\begin_layout Plain Layout
+Green:
+ Budget constraint.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Offer Curves
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Consumer A
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../../Dropbox/WesternAP/FirstYear/MicroI/notes/offercurveAcircle.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Consumer B
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../../Dropbox/WesternAP/FirstYear/MicroI/notes/offercurvesBcircle.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Legend:
+\end_layout
+
+\begin_layout Plain Layout
+Indifference Curves:
+ black
+\end_layout
+
+\begin_layout Plain Layout
+Offer Curves:
+ orange.
+\end_layout
+
+\begin_layout Plain Layout
+Red:
+ maximum utility level.
+\end_layout
+
+\begin_layout Plain Layout
+Green:
+ Budget constraint.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise
+An alternative proof of the second welfare theorem.
+ Consider a general equilibrium exchange economy,
+ where preferences are locally non-satiated.
+ Suppose that,
+ for any redistribution of the initial endowments among agents,
+ a competitive equilibrium exists.
+ Show that if 
+\begin_inset Formula $x^{*}$
+\end_inset
+
+ is Pareto efficient,
+ it can be supported as a competitive equilibrium allocation for some redistribution of endowment,
+ i.e.,
+ there exists 
+\begin_inset Formula $p\geq0$
+\end_inset
+
+,
+ 
+\begin_inset Formula $p\neq0$
+\end_inset
+
+ such that 
+\begin_inset Formula $(p,x^{*})$
+\end_inset
+
+ is a competitive equilibrium.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We want to show that there is some 
+\begin_inset Formula $\{\omega_{i}'\}_{i\in N}$
+\end_inset
+
+ such that 
+\begin_inset Formula $\sum_{i}\omega_{i}=\sum\omega_{i}'$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(i) 
+\begin_inset Formula $y_{1}^{*}\leq0$
+\end_inset
+
+,
+ 
+\begin_inset Formula $p\geq0$
+\end_inset
+
+ and 
+\begin_inset Formula $p^{t}y_{1}^{*}=0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+(ii) 
+\begin_inset Formula $x_{i}^{*}(p,p^{t}\omega_{i}')=x_{i}^{*}$
+\end_inset
+
+ for all 
+\begin_inset Formula $i$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(iii) 
+\begin_inset Formula $\sum_{i}x_{i}^{*}=\sum\omega_{i}'+y_{1}^{*}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $x^{*}$
+\end_inset
+
+ is Pareto Efficient (strongly),
+ then there does not exists a feasible 
+\begin_inset Formula $x'$
+\end_inset
+
+,
+ such that 
+\begin_inset Formula $x'_{i}\succ x_{i}^{*}$
+\end_inset
+
+ for some 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $x'_{j}\succeq x_{j}^{*}$
+\end_inset
+
+ for 
+\begin_inset Formula $i\neq j$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Claim 1:
+ 
+\begin_inset Formula $x^{*}$
+\end_inset
+
+ is feasible under any redistribution of initial endowments.
+ 
+\begin_inset Formula $\sum_{i}x_{i}^{*}\leq\sum_{i}\omega_{i}$
+\end_inset
+
+ then 
+\begin_inset Formula $\sum_{i}x_{i}^{*}\leq\sum_{i}\omega'_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Claim 2:
+ Any competitive equilibrium arising from a redistributions 
+\begin_inset Formula $\{\omega_{i}'\}_{i\in N}$
+\end_inset
+
+ is Pareto Efficient.
+ 
+\end_layout
+
+\begin_layout Standard
+This follows from the First Welfare Theorem,
+ because preference are locally non-satiated.
+ 
+\end_layout
+
+\begin_layout Standard
+Assumption:
+ A competitive Equilibrium exists for all redistributions 
+\begin_inset Formula $\{\omega_{i}'\}_{i\in N}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Thus we conclude,
+ that any PE allocation 
+\begin_inset Formula $x^{*}$
+\end_inset
+
+,
+ there is a 
+\begin_inset Formula $\{\omega_{i}'\}_{i\in N}$
+\end_inset
+
+ such that 
+\begin_inset Formula $\sum_{i}\omega_{i}=\sum\omega_{i}'$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(i) 
+\begin_inset Formula $y_{1}^{*}\leq0$
+\end_inset
+
+,
+ 
+\begin_inset Formula $p\geq0$
+\end_inset
+
+ and 
+\begin_inset Formula $p^{t}y_{1}^{*}=0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+(ii) 
+\begin_inset Formula $x_{i}^{*}(p,p^{t}\omega_{i}')=x_{i}^{*}$
+\end_inset
+
+ for all 
+\begin_inset Formula $i$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(iii) 
+\begin_inset Formula $\sum_{i}x_{i}^{*}=\sum\omega_{i}'+y_{1}^{*}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise
+Strong and weak Pareto efficiency.
+ An allocation 
+\begin_inset Formula $(x_{i})_{i=1,\cdots,I}$
+\end_inset
+
+ in a exchange economy is strongly Pareto efficient if it is a feasible allocation such that there does not exist another feasible allocation 
+\begin_inset Formula $(x_{i}')_{i\in1,\cdots I}$
+\end_inset
+
+ satisfying that for all 
+\begin_inset Formula $i$
+\end_inset
+
+,
+ 
+\begin_inset Formula $x_{i}'\succeq x_{i}$
+\end_inset
+
+ with at least one 
+\begin_inset Formula $j$
+\end_inset
+
+ for whom 
+\begin_inset Formula $x_{j}'\succ x_{j}$
+\end_inset
+
+.
+ An allocation 
+\begin_inset Formula $(x_{i})_{i=1,\cdots,I}$
+\end_inset
+
+ is an exchange economy is weakly Pareto efficient if it is a feasible allocation such that there does not exist another feasible allocation 
+\begin_inset Formula $(x_{i}')_{i=1,\cdots,I}$
+\end_inset
+
+ satisfying that for all 
+\begin_inset Formula $i,$
+\end_inset
+
+ 
+\begin_inset Formula $x_{i}'\succ_{i}x_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+(a) Show that if an allocation is strongly Pareto efficient,
+ it is also weakly pareto efficient.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Claim:
+ If 
+\begin_inset Formula $(x_{i})_{i=1,\cdots,I}$
+\end_inset
+
+ is strongly Pareto efficient (PE) then 
+\begin_inset Formula $(x_{i})_{i=1,\cdots,I}$
+\end_inset
+
+ is weakly Pareto efficient.
+ 
+\end_layout
+
+\begin_layout Standard
+Proof:
+ If 
+\begin_inset Formula $(x_{i})_{i=1,\cdots,I}$
+\end_inset
+
+ is PE then it is feasible 
+\begin_inset Formula $\sum_{i}x_{i}=\sum_{i}\omega_{i}$
+\end_inset
+
+ and there does not exist another 
+\begin_inset Formula $(x_{i}')_{i=1,\cdots,I}$
+\end_inset
+
+ such that 
+\begin_inset Formula $x_{i}'\succeq_{i}x_{i}$
+\end_inset
+
+ 
+\begin_inset Formula $\forall i$
+\end_inset
+
+ and for some 
+\begin_inset Formula $j$
+\end_inset
+
+ 
+\begin_inset Formula $x_{j}'\succ_{i}x_{j}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Assume 
+\begin_inset Formula $E$
+\end_inset
+
+ this economy is not strongly PE but is not weakly PE,
+ 
+\end_layout
+
+\begin_layout Standard
+then there exists 
+\begin_inset Formula $(x_{i}')_{i=1,\cdots,I}$
+\end_inset
+
+ such that 
+\begin_inset Formula $x_{i}'\succ x_{i}$
+\end_inset
+
+ for all 
+\begin_inset Formula $i$
+\end_inset
+
+,
+ but this means that 
+\begin_inset Formula $x_{i}'\succeq_{i}x_{i}$
+\end_inset
+
+ 
+\begin_inset Formula $\forall i$
+\end_inset
+
+ and that there is at least one 
+\begin_inset Formula $j$
+\end_inset
+
+ (in fact all the individuals) for 
+\begin_inset Formula $x_{j}'\succ_{j}x_{j}$
+\end_inset
+
+,
+ then this contradicts the assumption that it is Strongly Pareto Efficient,
+ then I have reached a contradiction and:
+ 
+\end_layout
+
+\begin_layout Standard
+strongly pareto efficiency implies weakly pareto efficiency.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+(b) Assume for simplicity that 
+\begin_inset Formula $X_{i}=\mathbb{R}_{+}^{L}$
+\end_inset
+
+for all 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ Show that if preferences are continuous and strongly monotone,
+ a weakly efficient allocation is also strongly efficient.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I want to show:
+ Weakly Pareto efficiency implies Strongly Pareto Efficiency given or conditioned on having continuous preferences and strong monotonicity.
+ 
+\end_layout
+
+\begin_layout Standard
+(Strong monotonicity is 
+\begin_inset Formula $x_{i}\geq z_{i}$
+\end_inset
+
+ then 
+\begin_inset Formula $x_{i}\succ z_{i}$
+\end_inset
+
+.
+ Continuity of preferences mean that 
+\begin_inset Formula $x^{n}\succeq z^{n}\implies x\succeq z$
+\end_inset
+
+ when 
+\begin_inset Formula $x^{n}\rightarrow x$
+\end_inset
+
+ and 
+\begin_inset Formula $z^{n}\rightarrow z$
+\end_inset
+
+.)
+\end_layout
+
+\begin_layout Standard
+A weakly pareto allocation 
+\begin_inset Formula $(x_{i})_{i=1,\cdots,I}$
+\end_inset
+
+ is a feasible allocation such that there does not exist another feasible allocation 
+\begin_inset Formula $(x_{i}')_{i=1,\cdots,I}$
+\end_inset
+
+ satisfying that for all 
+\begin_inset Formula $i,$
+\end_inset
+
+ 
+\begin_inset Formula $x_{i}'\succ_{i}x_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Then by strong monotonicity and with 
+\begin_inset Formula $X=\mathbb{R}_{+}^{L}$
+\end_inset
+
+ ,
+ 
+\begin_inset Formula $(x_{i})_{i=1,\cdots,I}$
+\end_inset
+
+ Weakly PE means that all 
+\begin_inset Formula $x_{i}'\geq x_{i}$
+\end_inset
+
+ with 
+\begin_inset Formula $x_{i}',x_{i}\in\mathbb{R}_{+}^{L}$
+\end_inset
+
+,
+ are not feasible that is 
+\begin_inset Formula $\sum_{i}x_{i}'>\sum_{i}\omega_{i}$
+\end_inset
+
+,
+ by definition of weakly pareto efficiency.
+ 
+\end_layout
+
+\begin_layout Standard
+Assume 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $(x_{i})_{i=1,\cdots,I}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ is weakly Pareto efficient and not strongly pareto efficient with strongly monotone preferences.
+ 
+\end_layout
+
+\begin_layout Standard
+Then there exists 
+\begin_inset Formula $(x_{i}')_{i=1,\cdots,I}$
+\end_inset
+
+ pareto superior,
+ this means 
+\begin_inset Formula $x_{i}'\succeq x_{i}$
+\end_inset
+
+ for all 
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Then by strong monotonicity for all 
+\begin_inset Formula $i$
+\end_inset
+
+,
+ 
+\begin_inset Formula $x_{i}'\sim x_{i}$
+\end_inset
+
+ ,
+ this allocation is feasible only if 
+\begin_inset Formula $x_{i}'=x_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This implies that is there does not exists a 
+\begin_inset Formula $j$
+\end_inset
+
+ such that 
+\begin_inset Formula $x_{j}'\succ x_{j}$
+\end_inset
+
+.
+ This contradicts the assumption that is not strongly pareto efficient.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+(c) Show that,
+ maintaining the other assumptions,
+ strong monotonicity is essential to prove the implication of part 
+\begin_inset Formula $(b)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In (b) I used only strong monotonicity without requiring continuity of preferences.
+ Alternatively to show it is essential I will replace it with the assumption of monotonicity.
+\end_layout
+
+\begin_layout Standard
+When replaced for monotonicity that is 
+\begin_inset Formula $x_{i}'>x_{i}$
+\end_inset
+
+ implies 
+\begin_inset Formula $x_{i}'\succ x_{i}$
+\end_inset
+
+,
+ then weakly pareto efficiency means that 
+\begin_inset Formula $x'_{i}>x_{i}$
+\end_inset
+
+ are not feasible,
+ but that leaves space for having 
+\begin_inset Formula $x_{i}'\leq x_{i}$
+\end_inset
+
+for all 
+\begin_inset Formula $\{1,\cdots,I\}/j$
+\end_inset
+
+ and for 
+\begin_inset Formula $j$
+\end_inset
+
+ 
+\begin_inset Formula $x_{j}'>x_{j}$
+\end_inset
+
+,
+ in fact I can construct and allocation taking 
+\begin_inset Formula $\epsilon>0$
+\end_inset
+
+ unit of good 
+\begin_inset Formula $1$
+\end_inset
+
+ of consumer 
+\begin_inset Formula $1$
+\end_inset
+
+ and 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ unit of good 2 of consumer 2 and so on as to reach consumer 
+\begin_inset Formula $i=L$
+\end_inset
+
+,
+ this makes the very weak assumption that 
+\begin_inset Formula $I\geq L$
+\end_inset
+
+,
+ finally give this 
+\begin_inset Formula $\epsilon1$
+\end_inset
+
+ vector in 
+\begin_inset Formula $\mathbb{R}_{+}^{L}$
+\end_inset
+
+ to consumer 
+\begin_inset Formula $j$
+\end_inset
+
+,
+ such that 
+\begin_inset Formula $x_{j}'=x_{j}+\epsilon1$
+\end_inset
+
+ this means that 
+\begin_inset Formula $x_{j}'>x_{j}$
+\end_inset
+
+ therefore 
+\begin_inset Formula $x_{j}'\succ x_{j}$
+\end_inset
+
+ and for all others let 
+\begin_inset Formula $x_{i}'\sim x_{i}$
+\end_inset
+
+ without much loss of generality then this new allocation is both feasible and pareto superior to 
+\begin_inset Formula $(x_{i})_{i=1,\cdots,I}$
+\end_inset
+
+ .
+ Then 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $(x_{i})_{i=1,\cdots,I}$
+\end_inset
+
+ is not strongly pareto efficient.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise
+Edgeworth Box.
+ Consider a pure exchange economy with two kinds of goods and two consumers.
+ Each consumer is endowed with one unit of good 1 and 
+\begin_inset Formula $1/2$
+\end_inset
+
+ unit of good 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ Their consumption sets are each 
+\begin_inset Formula $\mathbb{R}_{+}^{2}$
+\end_inset
+
+,
+ and their utility functions 
+\begin_inset Formula $u_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $u_{2}$
+\end_inset
+
+ are defined by,
+ for each consumption bundle 
+\begin_inset Formula $(x,y)\in\mathbb{R}_{+}^{2}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Exercise
+\begin_inset Formula 
+\[
+u_{1}(x,y):=x^{2}+y^{2},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise
+\begin_inset Formula 
+\[
+u_{2}(x,y):=x+y.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+(a) For each of the following items,
+ write down the explicit solution for this economy,
+ in set-theoretic notations,
+ and label the solutions in a diagram with clearly marked axed origins,
+ coordinates and indifference maps.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+(i) The set of all Pareto optimal allocations.
+ 
+\end_layout
+
+\begin_layout Description
+(ii) The set of all Walrasian allocations (be sure to provide the supporting price vectors).
+ 
+\end_layout
+
+\begin_layout Description
+(iii) The core.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+(i)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To find out the Pareto optimal allocation,
+ one strategy is to fix the utility level 
+\begin_inset Formula $\bar{U}$
+\end_inset
+
+ of one agent (say agent 1).
+ And for all allocations that could make agent 1 achieve utility 
+\begin_inset Formula $\bar{U}$
+\end_inset
+
+,
+ which allocation could give the other agent (agent 2) the highest utility.
+ Expanding 
+\begin_inset Formula $\bar{U}$
+\end_inset
+
+ to trace out all such allocations.
+\end_layout
+
+\begin_layout Standard
+The set of Pareto optimal allocations:
+ The three edges of the box except the north edge,
+ i.e.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\{ (x_{1},y_{1};2-x_{1},1-y_{1}):(x_{1},y_{1})\in[0,2]\times[0,1]\ \vert\ x_{1}=0\ or\ x_{1}=2\ or\ y_{1}=0\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(ii)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this question,
+ you cannot solve the maximization problem in the usual way as neither agent has strictly convex preference.
+\end_layout
+
+\begin_layout Standard
+Let's normalize 
+\begin_inset Formula $p_{x}=1$
+\end_inset
+
+,
+ so 
+\begin_inset Formula $p=\frac{p_{y}}{p_{x}}$
+\end_inset
+
+.
+ Since agent 1's utility is quasi convex,
+ she prefers consume only one good rather than some combinations.
+ So she will only consume which one is cheaper:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+OC_{1}(p)\begin{cases}
+(1+\frac{1}{2}p,0) & if\ p>1\\
+(0,1+\frac{1}{2p}) & if\ p<1\\
+(1.5,0)\ or\ (0,1.5) & if\ p=1
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../../Dropbox/WesternAP/Documents/WesternAP/FirstYear/MicroI/secondyear_material/problemsets/Offer_1.jpg
+	scale 57
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For agent 2,
+ if 
+\begin_inset Formula $p_{x}<y_{y}$
+\end_inset
+
+,
+ he will only consume good 
+\begin_inset Formula $x$
+\end_inset
+
+ since 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ are perfect substitute for him.
+ Vice versa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+OC_{2}(p_{x},p_{y})=\begin{cases}
+(1+\frac{1}{2}p,0) & if\ p>1\\
+(0,1+\frac{1}{2p}) & if\ p<1\\
+(x,1.5-x)\ for\ x\in[0.5,1.5] & if\ p=1
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment document
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../../Dropbox/WesternAP/Documents/WesternAP/FirstYear/MicroI/secondyear_material/problemsets/Offer_2.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So the set of Walrasian equilibrium is a singular when 
+\begin_inset Formula $p=1$
+\end_inset
+
+.
+ And the allocation is 
+\begin_inset Formula $(1.5,0\ ;\ 0.5,1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The intuition is that any price line steeper than this one render consumer 2's demand outside the box,
+ and any flatter price makes both consumer demand only good 1 and none of good 2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(iii)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The core is the subset of PO allocation such that non of the agents can be worse off.
+ So the core is 
+\begin_inset Formula $\{(x_{1},0;2-x_{1},1):\frac{\sqrt{5}}{2}\leq x_{1}\leq\frac{3}{2}\}$
+\end_inset
+
+,
+ i.e.
+ that is the segment on the south edge and between the indifference curves across the endowment point.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../../Dropbox/WesternAP/Documents/WesternAP/FirstYear/MicroI/secondyear_material/problemsets/Core.jpg
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The core
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+(b) For each of the following theorems,
+ point out whether the theorem is applicable to this economy and explain your answer concisely,
+ in no more than 
+\begin_inset Formula $20$
+\end_inset
+
+ words (i.e.,
+ for each theorem,
+ check whether all its conditions are satisfied or not):
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+(i) The first fundamental theorem of welfare economics.
+ 
+\end_layout
+
+\begin_layout Description
+(ii) The second fundamental theorem of welfare economics.
+ 
+\end_layout
+
+\begin_layout Description
+(iii) The existence theorem for Walras equilibriums.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(i) Applicable for the first welfare theorem because both relations are locally non-satiated.
+\end_layout
+
+\begin_layout Standard
+(ii) Inapplicable for the second welfare theorem because consumer 1's preference is not convex.
+\end_layout
+
+\begin_layout Standard
+(iii) Inapplicable for the existence theorem since because consumer 1's preference is not convex.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise
+The lion,
+ the tiger and the monkey.
+ Consider a jungle populated with only three animals 
+\begin_inset Formula $L,T$
+\end_inset
+
+ and 
+\begin_inset Formula $M$
+\end_inset
+
+.
+ There is a power relation 
+\begin_inset Formula $\succeq^{P}$
+\end_inset
+
+ in the jungle,
+ which is complete and transitive,
+ given by 
+\begin_inset Formula $L\succ^{P}T\succ^{P}M$
+\end_inset
+
+.
+ There are three possible locations 
+\begin_inset Formula $a$
+\end_inset
+
+,
+ 
+\begin_inset Formula $b$
+\end_inset
+
+ and 
+\begin_inset Formula $c$
+\end_inset
+
+,
+ in which the three could live.
+ We assume that only one animal lives in each location.
+ The preferences of each animal for the three locations are:
+\end_layout
+
+\begin_layout Exercise
+\begin_inset Formula 
+\[
+aP_{L}bP_{L}c;
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise
+\begin_inset Formula 
+\[
+aP_{T}cP_{T}b;
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise
+\begin_inset Formula 
+\[
+aP_{M}cP_{M}b.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+(a) Describe first the set of feasible allocations in this problem.
+ Can you find the strongly Pareto efficient allocations of the three locations?
+\end_layout
+
+\begin_layout Description
+(b) The laws of the jungle imply that the animals get to choose where to live following the order prescribed by the power relation.
+ Find the jungle equilibrium and check whether the conclusions of the second welfare theorem hold as well?
+ (To do this,
+ be as specific as you can in suggesting 
+\begin_inset Quotes eld
+\end_inset
+
+transfers
+\begin_inset Quotes erd
+\end_inset
+
+ in the power relation,
+ i.e.,
+ revolutions organized by the tiger and or the monkey.)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(a) The set of feasible allocations is simply the set of permutations of the three elements (in this list,
+ we are always listing the lion first,
+ the tiger second,
+ and the monkey third):
+ 
+\begin_inset Formula $x_{1}=(a,b,c)$
+\end_inset
+
+,
+ 
+\begin_inset Formula $x_{2}=(a,c,b)$
+\end_inset
+
+,
+ 
+\begin_inset Formula $x_{3}=(b,a,c)$
+\end_inset
+
+,
+ 
+\begin_inset Formula $x_{4}=(b,c,a)$
+\end_inset
+
+,
+ 
+\begin_inset Formula $x_{5}=(c,a,b)$
+\end_inset
+
+ and 
+\begin_inset Formula $x_{6}=(c,b,a)$
+\end_inset
+
+.
+ One can easily check that the strongly Pareto efficient allocations are 
+\begin_inset Formula $x_{1},x_{2},x_{3}$
+\end_inset
+
+ and 
+\begin_inset Formula $x_{4}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+(b) The jungle equilibrium for this power relation is 
+\begin_inset Formula $x_{2}$
+\end_inset
+
+ which is Pareto efficient.
+ So,
+ the conclusion of the first welfare theorem holds.
+ And indeed,
+ for each of the other three efficient allocations,
+ there exists a 
+\begin_inset Quotes eld
+\end_inset
+
+transfer of power
+\begin_inset Quotes erd
+\end_inset
+
+ that would support each efficient allocation as the corresponding jungle equilibrium.
+ 
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ the power relation would be 
+\begin_inset Formula $L\succ^{P}M\succ^{P}T$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $x_{3}$
+\end_inset
+
+,
+ the power relation would be 
+\begin_inset Formula $T\succ^{P}L\succ^{P}M$
+\end_inset
+
+ or 
+\begin_inset Formula $T\succ^{P}M\succ^{P}L$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $x_{4}$
+\end_inset
+
+ it would be 
+\begin_inset Formula $M\succ^{P}L\succ^{P}T$
+\end_inset
+
+ or 
+\begin_inset Formula $M\succ^{P}T\succ^{P}L$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{proof}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
